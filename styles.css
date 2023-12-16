@@ -1,0 +1,84 @@
+body {
+    min-height: 150vh;
+    width: 100vw;
+    background-color: pink;
+}
+header {
+    height: 100px;
+    display: flex;
+}
+
+
+.logo {
+    width: 10%;
+}
+nav {
+    display: inline-block;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+  color: white;  
+  text-decoration: none;
+  font-size: 20;
+}
+
+.active {
+    color: crimson;
+}
+main {
+    width: 100%;
+    height: 80%;
+   
+}
+.container {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.art {
+    width: 1500px;
+    height: 400px;
+    object-fit: fill;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+p {
+    color: black;
+
+}
+
+.infobox {
+    background-color: purple;
+    width: 700px;
+    display: inline-block;
+
+}
+
+.infoart {
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+}
+
+.footerlogo {
+    height: 100px;
+    width: 1800px;
+}
+
+footer {
+    width: 100%;
+    
+
+}
